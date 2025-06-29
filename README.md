@@ -128,18 +128,11 @@ medical-assistant/
 ├── crawlSchema.py             # Web content extraction schema
 ├── condition.py               # Medical condition detection
 ├── Databases/                 # CSV files directory
-│   └── *.csv                  # QA data files
+│   └── train.csv                  # QA data file
 ├── requirements.txt           # Python dependencies
 ├── .env                       # Environment variables
 └── README.md                  # This file
 ```
-
-## CSV Data Format
-
-The system expects CSV files in the `Databases` folder with the following columns:
-- `Question`: Medical questions
-- `Answer`: Corresponding answers
-- `qtype`: Question type classification
 
 ## Troubleshooting
 
