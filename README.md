@@ -62,16 +62,7 @@ pip install -r requirements.txt
 3. Navigate to your dashboard
 4. Copy your API key
 
-#### Create .env File
-
-Create a `.env` file in the project root directory:
-
-```bash
-touch .env
-```
-
-Add your API keys to the `.env` file:
-
+#### Add your API keys to the `.env` file:
 ```
 GOOGLE_API_KEY=your_gemini_api_key_here
 Firecrawl_API_KEY=your_firecrawl_api_key_here
